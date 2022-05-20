@@ -1,0 +1,39 @@
+.nav{
+    display:none;
+}
+
+.nav-active{
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+    width:20%;
+    background-color: $navColor;
+    transition: 1s ease-in-out;
+}
+
+.nav__sidebar{
+    list-style:none;
+}
+
+.nav__sidebar-item{
+    a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $primaryColor;
+        padding: 20px;
+        font-size: 25px;
+    }
+}
+
+.nav__sidebar-item:hover{
+    background-color: $secondaryColor;
+}
+
+@media screen and(max-width:599px){
+    .nav-active{
+        width:25%;
+    }
+}

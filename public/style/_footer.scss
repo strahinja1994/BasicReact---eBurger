@@ -1,0 +1,20 @@
+.footer{
+    background:linear-gradient(180deg,#b09372, #806b53);
+}
+
+.footer__title{
+    text-align: center;
+    color: $primaryColor;
+    padding:20px;
+    font-size: 50px;
+    font-family: boldPoppins;
+    font-weight: 700;
+}
+
+.footer__icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding-bottom:20px;
+}
