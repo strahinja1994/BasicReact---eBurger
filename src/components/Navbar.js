@@ -5,7 +5,7 @@ export default function Navbar(props) {
 
     const sidebar = sidebarData.map((item,index) => {
         return(
-            <li key={index} className='nav__sidebar-item'>
+            <li key={index} className='nav__sidebar-item' onClick={props.closeMenu}>
                 <a href={item.path}>{item.text}</a>
             </li>
         )
