@@ -1,7 +1,7 @@
 export const sidebarData = [
     {
         text: 'Home',
-        path: '',
+        path: '/',
     },
     {
         text: 'Burger',
@@ -17,6 +17,6 @@ export const sidebarData = [
     },
     {
         text: 'Other',
-        path: '',
+        path: '/',
     },
 ]
