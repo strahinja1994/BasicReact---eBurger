@@ -13,6 +13,10 @@ export default function App() {
     function showMenu() {
         setOpenMenu(prevOpenMenu => !prevOpenMenu);
     }
+    
+    function closeMenu(){
+        setOpenMenu(false);
+    }
 
     return (
         <div className="app">
@@ -22,6 +26,7 @@ export default function App() {
                 />
                 <Navbar 
                     openMenu={openMenu}
+                    closeMenu={closeMenu}
                 />
                 <Section />
             </div>
